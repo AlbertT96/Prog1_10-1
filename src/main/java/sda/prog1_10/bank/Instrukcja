@@ -1,0 +1,16 @@
+Bank: nazwa, lista klientów, OPT(lista rachunków)
+Klient: imie, nazwisko, pesel, unikalny numer klienta, lista rachunków
+Rachunek: typ, stan rachunku
+
+operacje:
+założenie klienta
+założenie rachunku dla klienta
+usunięcie rachunku dla klienta (jeśli stan środków = 0)
+usunięcie klienta (jeśli nie ma rachunków)
+
+wpłata na rachunek
+wypłata z rachunku
+
+lista klientów banku (z listą rachunków(z saldem lub bez))
+lista rachunków klienta (z saldem lub bez)
+OPT(lista rachunków (z saldami lub bez))
